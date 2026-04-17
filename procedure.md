@@ -1,31 +1,9 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2869
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa321\partightenfactor0
-
-\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Procedure\
-\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
-\ls1\ilvl0
-\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 First, make sure Python is installed on your system. If not, download and install it from the official Python website. I actually installed it from the official website, it was much easier and better.\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Install the required libraries by opening a terminal or command prompt and running the command:\uc0\u8232 pip install opencv-python numpy\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Prepare a folder named \'93known_faces\'94 and add images of the person you want the system to recognize. I didn\'92t include mine here because I really didn\'92t want to\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 If needed, update the folder path in the main.py file so the program can access the images correctly.\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Run the program by executing the main.py file using Python.\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Allow webcam access when prompted so the system can start capturing video. I used my laptop webcam for this purpose.\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 The program will detect faces in real time and compare them with the stored images. It will label them as either Known or Unknown.\
-\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 To stop the program, press the Q key on your keyboard. \
-}
+Procedure
+	1	First, make sure Python is installed on your system. If not, download and install it from the official Python website. I actually installed it from the official website, it was much easier and better.
+	2	Install the required libraries by opening a terminal or command prompt and running the command: pip install opencv-python numpy
+	3	Prepare a folder named “known_faces” and add images of the person you want the system to recognize. I didn’t include mine here because I really didn’t want to
+	1	If needed, update the folder path in the main.py file so the program can access the images correctly.
+	2	Run the program by executing the main.py file using Python.
+	3	Allow webcam access when prompted so the system can start capturing video. I used my laptop webcam for this purpose.
+	4	The program will detect faces in real time and compare them with the stored images. It will label them as either Known or Unknown.
+	5	To stop the program, press the Q key on your keyboard. 
