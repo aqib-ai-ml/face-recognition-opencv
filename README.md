@@ -1,7 +1,7 @@
 # Face Recognition System (OpenCV)
 
 ##  Overview
-This project is a basic face recognition system built using Python and OpenCV. It detects faces in real-time using a webcam and compares them with stored images to identify whether the detected face matches a known person.
+This project is a early computer vision face recognition prototype using OpenCV. It detects faces in real-time using a webcam and compares them with stored images to identify whether the detected face matches a known person.
 
 Earlier, I planned to use a Raspberry Pi 5. However, it required a monitor, keyboard, and mouse, which I did not have at the time. So I used my personal computer instead to run the OpenCV-based implementation.
 
